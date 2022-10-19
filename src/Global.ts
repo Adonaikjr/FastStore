@@ -9,12 +9,10 @@ export const GlobalStyle = createGlobalStyle`
 
     :focus{
         outline: 0;
-        //box-shadow:0 0 0 2px ${({ theme }) => theme.base_border}
     }
 
     body{
         background: ${({ theme }) => theme.white};
-       // color: ${({ theme }) => theme.base_text};
     }
     body, input, textarea, button{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
