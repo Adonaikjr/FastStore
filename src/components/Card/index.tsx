@@ -13,7 +13,7 @@ export function Cards({ img, title, text, redirect, value }: types_props) {
   return (
     <ContainerCard>
       <h3>{title}</h3>
-      {img}
+      <section>{img}</section>
       <p>{text}</p>
       <p>{value}</p>
       <Button title={redirect} />
