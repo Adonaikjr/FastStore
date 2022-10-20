@@ -29,10 +29,10 @@ export const ContainerCard = styled.div`
   }
   button {
     border: solid transparent;
+    text-align: center;
     background-color: ${({ theme }) => theme.buttonYellow};
     margin-top: 1rem;
     font-size: 16px;
-
     :hover {
       transition: 10ms;
       background-color: ${({ theme }) => theme.buttonYellowDark};
