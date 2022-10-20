@@ -8,6 +8,7 @@ export const ContainerHeader = styled.header`
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 `
 export const Nav = styled.div`
   width: 350px;
@@ -48,10 +49,14 @@ export const ContainerButton = styled.div`
     width: 190px;
     margin: 1rem 0rem 1rem 0rem;
     font-size: 16px;
-    background-color: ${({ theme }) => theme.buttonYellow};
+    background-color: ${({ theme }) => theme.purple};
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      cursor: pointer;
     :hover {
       transition: 2s;
-      background-color: ${({ theme }) => theme.buttonYellowDark};
+      background-color: ${({ theme }) => theme.purpleLight};
     }
   }
 

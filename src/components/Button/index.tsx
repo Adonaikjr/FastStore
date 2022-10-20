@@ -1,4 +1,3 @@
-import { PropsWithChildren } from 'react'
 import { ContainerButton } from './styled'
 
 interface type_btn {
