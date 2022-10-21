@@ -23,7 +23,7 @@ export function Header() {
         </ul>
       </Nav>
       <ContainerButton>
-        <Button title="Entre em contato" />
+        <Button title={<a href="##">Grupo Telegram</a>} />
       </ContainerButton>
     </ContainerHeader>
   )

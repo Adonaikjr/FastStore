@@ -28,6 +28,13 @@ export const ContainerNewButton = styled(ContainerButton)`
     :hover {
       background-color: ${({ theme }) => theme.buttonYellowDark};
     }
+    a:link,
+    a:visited {
+      font-size: 20px;
+      color: ${({ theme }) => theme.white};
+      width: 100%;
+      height: 100%;
+    }
   }
 `
 export const Box = styled.div`

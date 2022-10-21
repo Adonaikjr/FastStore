@@ -42,8 +42,6 @@ export const ContainerCard = styled.div`
     a:visited {
       font-size: 20px;
       color: #fff;
-      width: 100%;
-      height: 100%;
     }
   }
 `
