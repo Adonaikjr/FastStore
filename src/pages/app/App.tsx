@@ -20,9 +20,9 @@ export function App() {
           <span>Boas-Vindas ao Fast Store 👋</span>
           <h1>Descontos exclusivos de um jeito simples para nossos usuários</h1>
           <p>
-            Somos uma loja parceira da AMAZON, MAGALU, SHOPEE, entre outros,
-            aqui temos descontos especiais para nossos usuários do site. Clique
-            <Link to="/"> aqui</Link> para conhecer mais.
+            Somos uma loja parceira da AMAZON, SHOPEE, entre outros, aqui temos
+            descontos especiais para nossos usuários do site. Clique
+            <Link to="/about"> aqui</Link> para conhecer mais.
           </p>
           <ContainerNewButton>
             <Button

@@ -12,7 +12,7 @@ export function Header() {
             <Link to="/">Inicío</Link>
           </li>
           <li>
-            <Link to="/">Sobre</Link>
+            <Link to="/about">Sobre</Link>
           </li>
           <li>
             <Link to="/">Serviços</Link>
@@ -23,7 +23,9 @@ export function Header() {
         </ul>
       </Nav>
       <ContainerButton>
-        <Button title={<a href="##">Grupo Telegram</a>} />
+        <Button
+          title={<a href="https://t.me/+DOzQWh1Tv540MDNh">Grupo Telegram</a>}
+        />
       </ContainerButton>
     </ContainerHeader>
   )

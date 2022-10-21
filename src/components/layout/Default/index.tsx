@@ -6,7 +6,7 @@ export function LayoutDefault() {
   return (
     <ContainerLayoutDefault>
       <Header />
-      <Outlet/>
+      <Outlet />
     </ContainerLayoutDefault>
   )
 }
