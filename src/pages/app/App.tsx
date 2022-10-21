@@ -55,7 +55,7 @@ export function App() {
             <a
               href="https://shope.ee/3AWkg3fVgw"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Conferir
             </a>
@@ -76,7 +76,7 @@ export function App() {
             <a
               href="https://shope.ee/A9gV8N4Mdc"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Conferir
             </a>
@@ -97,7 +97,7 @@ export function App() {
             <a
               href="https://shope.ee/99nxwvc0NE"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Conferir
             </a>
