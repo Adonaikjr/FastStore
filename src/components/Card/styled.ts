@@ -12,6 +12,16 @@ export const ContainerCard = styled.div`
   align-items: center;
   margin: 1rem;
   border: solid transparent;
+  h3 {
+    //styleName: Title/Title S;
+font-family: Baloo 2;
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+
+  }
   section {
     height: 12rem;
   }

@@ -16,11 +16,8 @@ export function App() {
     <ContainerApp>
       <Section>
         <Box>
-          <p>Boas-Vindas ao Fast Store 👋</p>
-          <h1>
-            Descontos exclusivos de um jeito simples para nossos
-            <span> Usuários</span>
-          </h1>
+          <span>Boas-Vindas ao Fast Store 👋</span>
+          <h1>Descontos exclusivos de um jeito simples para nossos usuários</h1>
           <p>
             Somos uma loja parceira da AMAZON, MAGALU, SHOPEE, entre outros,
             aqui temos descontos especiais para nossos usuários do site. Clique
@@ -87,7 +84,7 @@ export function App() {
         />
 
         <Cards
-          title="Máquina de depilação a LEASER de 600000IPL"
+          title="Depilação a LEASER de 600000IPL"
           text="Remoção permanente dos pelos 5niveis de potência"
           value="R$145,00"
           img={

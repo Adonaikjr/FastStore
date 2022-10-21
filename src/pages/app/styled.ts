@@ -45,6 +45,20 @@ export const Box = styled.div`
   height: 20rem;
   margin: 1rem 0rem 1rem 0rem;
   width: 30rem;
+  span {
+    //styleName: Title/Title XL;
+    font-family: Baloo 2;
+    font-size: 33px;
+    font-weight: 800;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  p {
+    //styleName: Text/Regular L;
+    font-family: Roboto;
+    font-weight: 400;
+  }
 `
 export const Content = styled.div`
   display: flex;
