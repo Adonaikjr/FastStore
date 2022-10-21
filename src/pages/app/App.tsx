@@ -84,7 +84,7 @@ export function App() {
           redirect={<a href="https://amzn.to/3gs9swU">Conferir</a>}
         />
         <Cards
-          title="Sabonete metálico aço inox"
+          title=""
           text="Cozinha Untador Frigideira Óleo Confeiteiro"
           value="R$15,85"
           img={
