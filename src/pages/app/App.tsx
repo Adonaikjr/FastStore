@@ -83,6 +83,7 @@ export function App() {
           }
           redirect={<a href="https://amzn.to/3gs9swU">Conferir</a>}
         />
+<<<<<<< HEAD
         <Cards
           title=""
           text="Cozinha Untador Frigideira Óleo Confeiteiro"
@@ -101,6 +102,19 @@ export function App() {
           value="a partir R$30,00"
           img={<img src={flyerbrasil} alt="camisetas do brasil" />}
           redirect={<a href="https://shope.ee/4zyQjyFE6i">Conferir</a>}
+=======
+         <Cards
+          title="Chuveirinho Torneira Retrátil"
+          text="Giratória 360° Há Prova De Respingo"
+          value="R$4,83"
+          img={
+            <img
+              src="https://lzd-img-global.slatic.net/g/p/50e05f5cbc7bf49100445872da2f72b2.jpg_360x360q75.jpg_.webp"
+              alt="seladora de alimentos"
+            />
+          }
+          redirect={<a href="https://shope.ee/8pB89UjJab?share_channel_code=2">Conferir</a>}
+>>>>>>> 68be2ed4dc11861c55daa9ce6f32f5a30fe0af75
         />
       </Content>
     </ContainerApp>
