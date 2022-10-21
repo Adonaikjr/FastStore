@@ -4,7 +4,7 @@ import { ContainerCard } from './styled'
 interface types_props {
   title: string
   text: string
-  img: any
+  img?: any
   redirect: any
   value?: any
 }
