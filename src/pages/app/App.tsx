@@ -85,7 +85,7 @@ export function App() {
         />
          <Cards
           title="Chuveirinho Torneira Retrátil"
-          text="Giratória 360° Filtro De Água Cozinha Bico Há Prova De Respingo"
+          text="Giratória 360° Há Prova De Respingo"
           value="R$4,83"
           img={
             <img
