@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom'
 import { Button } from '../../components/Button'
 import { FcAdvertising } from 'react-icons/all'
 import flyerbrasil from '../../assets/brasil.png'
+import imgPincel from '../../assets/pincelComida.jpeg'
 export function App() {
   return (
     <ContainerApp>
@@ -88,6 +89,7 @@ export function App() {
           title="Pincel Culinário Com Reservatório"
           text="Cozinha Untador Frigideira Óleo Confeiteiro"
           value="R$15,85"
+          img={<img src={imgPincel} alt="seladora de alimentos" />}
           redirect={<a href="https://shope.ee/89vSKslRi4">Conferir</a>}
         />
         <Cards
