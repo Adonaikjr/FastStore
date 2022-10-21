@@ -14,13 +14,12 @@ export const ContainerCard = styled.div`
   border: solid transparent;
   h3 {
     //styleName: Title/Title S;
-font-family: Baloo 2;
-font-size: 20px;
-font-weight: 700;
-line-height: 26px;
-letter-spacing: 0em;
-text-align: center;
-
+    font-family: Baloo 2;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
   }
   section {
     height: 12rem;
@@ -52,6 +51,7 @@ text-align: center;
     a:visited {
       font-size: 20px;
       color: #fff;
+      width: 100%;
     }
   }
 `

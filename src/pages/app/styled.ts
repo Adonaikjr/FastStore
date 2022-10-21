@@ -20,7 +20,7 @@ export const Section = styled.section`
 `
 export const ContainerNewButton = styled(ContainerButton)`
   button {
-    width: 100%;
+    width: 50%;
     background: ${({ theme }) => theme.buttonYellow};
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
       rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
@@ -28,12 +28,12 @@ export const ContainerNewButton = styled(ContainerButton)`
     :hover {
       background-color: ${({ theme }) => theme.buttonYellowDark};
     }
+    display: flex;
+    justify-content: center;
     a:link,
     a:visited {
       font-size: 20px;
       color: ${({ theme }) => theme.white};
-      width: 100%;
-      height: 100%;
     }
   }
 `
