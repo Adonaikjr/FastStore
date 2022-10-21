@@ -20,7 +20,9 @@ export const Section = styled.section`
 `
 export const ContainerNewButton = styled(ContainerButton)`
   button {
-    width: 50%;
+    display: flex;
+    align-items: center;
+    width: 60%;
     background: ${({ theme }) => theme.buttonYellow};
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
       rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
@@ -43,7 +45,7 @@ export const Box = styled.div`
   justify-content: space-evenly;
   border: solid transparent;
   height: 20rem;
-  margin: 1rem 0rem 1rem 0rem;
+  margin: 1rem 0rem 1rem 1rem;
   width: 30rem;
   span {
     //styleName: Title/Title XL;
@@ -57,7 +59,6 @@ export const Box = styled.div`
   p {
     //styleName: Text/Regular L;
     font-family: Roboto;
-    font-weight: 400;
   }
 `
 export const Content = styled.div`
