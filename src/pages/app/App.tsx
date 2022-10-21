@@ -83,6 +83,18 @@ export function App() {
           }
           redirect={<a href="https://amzn.to/3gs9swU">Conferir</a>}
         />
+         <Cards
+          title="Chuveirinho Torneira Retrátil"
+          text="Giratória 360° Filtro De Água Cozinha Bico Há Prova De Respingo"
+          value="R$4,83"
+          img={
+            <img
+              src="https://lzd-img-global.slatic.net/g/p/50e05f5cbc7bf49100445872da2f72b2.jpg_360x360q75.jpg_.webp"
+              alt="seladora de alimentos"
+            />
+          }
+          redirect={<a href="https://shope.ee/8pB89UjJab?share_channel_code=2">Conferir</a>}
+        />
       </Content>
     </ContainerApp>
   )
