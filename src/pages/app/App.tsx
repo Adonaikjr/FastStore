@@ -25,15 +25,7 @@ export function App() {
           </p>
           <ContainerNewButton>
             <Button
-              title={
-                <a
-                  href="https://amzn.to/3TypQKO"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Melhores Ofertas
-                </a>
-              }
+              title={<a href="https://amzn.to/3TypQKO">Melhores Ofertas</a>}
               icon={FcAdvertising}
             ></Button>
           </ContainerNewButton>
@@ -51,15 +43,7 @@ export function App() {
               alt="amassador de carne"
             />
           }
-          redirect={
-            <a
-              href="https://shope.ee/3AWkg3fVgw"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Conferir
-            </a>
-          }
+          redirect={<a href="https://shope.ee/3AWkg3fVgw">Conferir</a>}
         />
 
         <Cards
@@ -72,15 +56,7 @@ export function App() {
               alt="seladora de alimentos"
             />
           }
-          redirect={
-            <a
-              href="https://shope.ee/A9gV8N4Mdc"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Conferir
-            </a>
-          }
+          redirect={<a href="https://shope.ee/A9gV8N4Mdc">Conferir</a>}
         />
 
         <Cards
@@ -93,15 +69,19 @@ export function App() {
               alt="seladora de alimentos"
             />
           }
-          redirect={
-            <a
-              href="https://shope.ee/99nxwvc0NE"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Conferir
-            </a>
+          redirect={<a href="https://shope.ee/99nxwvc0NE">Conferir</a>}
+        />
+        <Cards
+          title="Sabonete metálico aço inox"
+          text="Tira Cheiro Anti-odor Casa Cozinha"
+          value="R$23,50"
+          img={
+            <img
+              src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07FYTCXVB&Format=_SL160_&ID=AsinImage&MarketPlace=BR&ServiceVersion=20070822&WS=1&tag=adonaikjr03-20&language=pt_BR"
+              alt="seladora de alimentos"
+            />
           }
+          redirect={<a href="https://amzn.to/3gs9swU">Conferir</a>}
         />
       </Content>
     </ContainerApp>
