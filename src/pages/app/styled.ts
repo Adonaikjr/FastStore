@@ -6,6 +6,7 @@ export const ContainerApp = styled.main`
 `
 export const Section = styled.section`
   //border: solid transparent;
+  padding-top: 1rem;
   background-color: ${({ theme }) => theme.colorInput};
   border: solid transparent;
   height: 100%;

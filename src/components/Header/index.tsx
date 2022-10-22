@@ -15,7 +15,7 @@ export function Header() {
             <Link to="/about">Sobre</Link>
           </li>
           <li>
-            <Link to="/">Serviços</Link>
+            <Link to="/category">Categorias</Link>
           </li>
           <li>
             <Link to="/">Depoimentos</Link>
