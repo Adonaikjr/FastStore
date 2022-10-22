@@ -2,6 +2,7 @@ import styled, { keyframes } from 'styled-components'
 
 export const ContainerCategory = styled.nav`
   margin: 1rem;
+  padding: 1rem;
   border: solid transparent;
   overflow-y: auto;
   scroll-behavior: smooth;
@@ -48,7 +49,7 @@ export const ContainerScroll = styled.ul`
     display: flex;
     margin-bottom: 1rem;
     border-radius: 5px;
-    border: solid transparent;
+    border: none;
     align-items: center;
     padding: 1.4rem;
     svg {
@@ -66,6 +67,7 @@ const animation = keyframes`
 export const Options = styled.div`
   border: solid transparent;
   display: flex;
+  padding-top: 1rem;
   justify-content: center;
   align-items: center;
   svg {
