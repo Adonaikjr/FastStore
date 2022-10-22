@@ -66,4 +66,5 @@ export const Content = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 5rem;
+ 
 `
