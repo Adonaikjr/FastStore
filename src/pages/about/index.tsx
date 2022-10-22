@@ -21,6 +21,8 @@ export function About() {
           <img src={amazon} alt="amazon" />
         </a>
       </NewSection>
+
+      
     </ContainerAbout>
   )
 }

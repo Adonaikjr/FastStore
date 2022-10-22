@@ -26,9 +26,7 @@ export function App() {
           </p>
           <ContainerNewButton>
             <Button
-              title={
-                <a href="https://amzn.to/3F4RR8Q">Melhores Ofertas do dia</a>
-              }
+              title={<a href="https://amzn.to/3F4RR8Q">Ofertas do dia</a>}
               icon={FcAdvertising}
             ></Button>
           </ContainerNewButton>
@@ -114,6 +112,18 @@ export function App() {
               Conferir
             </a>
           }
+        />
+        <Cards
+          title="Película 9D/3D Vidro Full Cover"
+          text="Ultra proteção contra quedas, impactos e arranhões"
+          value="R$1,20"
+          img={
+            <img
+              src="https://cf.shopee.com.br/file/7df793579e29167ec37f0567b1215196_tn"
+              alt="seladora de alimentos"
+            />
+          }
+          redirect={<a href="https://shope.ee/6AAPXfzbNI">Conferir</a>}
         />
       </Content>
     </ContainerApp>

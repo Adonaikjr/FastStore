@@ -6,16 +6,13 @@ import { defaultTheme } from './themes/defaultTheme'
 import { GlobalStyle } from './Global'
 import { BrowserRouter } from 'react-router-dom'
 
-
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    
     <ThemeProvider theme={defaultTheme}>
       <BrowserRouter>
         <GlobalStyle />
         <AppRoutes />
       </BrowserRouter>
     </ThemeProvider>
-  
-  </React.StrictMode>
+  </React.StrictMode>,
 )
