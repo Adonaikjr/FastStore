@@ -55,10 +55,55 @@ export const Box = styled.div`
     line-height: 62px;
     letter-spacing: 0em;
     text-align: left;
+    animation-name: animation;
+    animation-duration: 1s;
+    position: relative;
+
+    @keyframes animation {
+      0% {
+        left: -200px;
+        top: 0px;
+      }
+      100% {
+        left: 0px;
+        top: 0px;
+      }
+    }
+  }
+  h1 {
+    animation-name: animationText;
+    animation-duration: 1.5s;
+    position: relative;
+
+    @keyframes animationText {
+      0% {
+        left: 200px;
+        top: 0px;
+      }
+      100% {
+        left: 0px;
+        top: 0px;
+      }
+    }
   }
   p {
     //styleName: Text/Regular L;
+    margin-top: 1rem;
     font-family: Roboto;
+    animation-name: animationText;
+    animation-duration: 2s;
+    position: relative;
+
+    @keyframes animationText {
+      0% {
+        left: -200px;
+        top: 0px;
+      }
+      100% {
+        left: 0px;
+        top: 0px;
+      }
+    }
   }
 `
 export const Content = styled.div`
@@ -66,5 +111,4 @@ export const Content = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 5rem;
- 
 `

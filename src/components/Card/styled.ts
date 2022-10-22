@@ -15,18 +15,9 @@ export const ContainerCard = styled.div`
 
   @media (max-width: 600px) {
     width: 10rem;
+    height: 500px;
     padding: 0.5rem;
-    h3 {
-      //styleName: Title/Title S;
-      font-family: Baloo 2;
-      font-size: 20px;
-      font-weight: 700;
-      line-height: 26px;
-      letter-spacing: 0em;
-      text-align: center;
-    }
-    section {
-    }
+
     img {
       border: solid transparent;
       height: 6rem;
@@ -39,28 +30,6 @@ export const ContainerCard = styled.div`
           rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
         width: 100%;
         height: 100%;
-      }
-    }
-    p {
-      margin: 0rem 0rem 0.5rem 0rem;
-      border: solid transparent;
-    }
-    button {
-      border: solid transparent;
-      text-align: center;
-      background-color: ${({ theme }) => theme.buttonYellow};
-      margin-top: 1rem;
-      font-size: 16px;
-      :hover {
-        transition: 10ms;
-        background-color: ${({ theme }) => theme.buttonYellowDark};
-      }
-
-      a:link,
-      a:visited {
-        font-size: 20px;
-        color: #fff;
-        width: 100%;
       }
     }
   }
