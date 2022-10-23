@@ -4,6 +4,8 @@ import { LayoutCategory } from '../components/layout/LayoutCategory'
 import { About } from '../pages/about'
 import { App } from '../pages/app/App'
 import { Category } from '../pages/category'
+import { CategorySaude } from '../components/products/saude'
+import { CategoryRelogios } from '../components/products/Relogios'
 export function AppRoutes() {
   return (
     <Routes>
@@ -13,6 +15,8 @@ export function AppRoutes() {
 
         <Route path="/category" element={<LayoutCategory />}>
           <Route path="/category" element={<Category />} />
+          <Route path="saude" element={<CategorySaude />} />
+          <Route path="relogio" element={<CategoryRelogios />} />
         </Route>
       </Route>
     </Routes>

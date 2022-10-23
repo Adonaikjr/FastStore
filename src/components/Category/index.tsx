@@ -6,42 +6,42 @@ import {
   IoIosDesktop,
   TbDeviceWatchStats2,
   SlGameController,
-  MdToys,
   CgScrollV,
 } from 'react-icons/all'
+import { Link } from 'react-router-dom'
 
 export function ComponentCategory() {
   return (
     <ContainerCategory id="category">
       <ContainerScroll>
         <li>
-          <a href="/">Celulares e Dispositivos</a>
+          <Link to="/">Celulares e Dispositivos</Link>
           <FcIphone size={24} />
         </li>
         <li>
-          <a href="#casa">Casa e Decoração</a>
+          <Link to="/category/casa">Casa e Decoração</Link>
           <BsFillHouseFill size={24} />
         </li>
 
         <li>
-          <a href="/">Acessórios de Moda</a>
+          <Link to="/">Acessórios de Moda</Link>
           <FaGlasses size={24} />
         </li>
         <li>
-          <a href="/">Computadores e Acessórios</a>
+          <Link to="/">Computadores e Acessórios</Link>
           <IoIosDesktop size={24} />
         </li>
         <li>
-          <a href="#relogio">Relógios</a>
+          <Link to="/category/relogio">Relógios</Link>
           <TbDeviceWatchStats2 size={24} />
         </li>
         <li>
-          <a href="/">Jogos e Consoles</a>
+          <Link to="/">Jogos e Consoles</Link>
           <SlGameController size={24} />
         </li>
         <li>
-          <a href="/">Brinquedos e Hobbies</a>
-          <MdToys size={24} />
+          <Link to="/category/saude">Saúde</Link>
+          ❤️
         </li>
       </ContainerScroll>
       <Options>

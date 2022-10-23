@@ -6,16 +6,16 @@ export const ContainerCategory = styled.nav`
   border: solid transparent;
   overflow-y: auto;
   scroll-behavior: smooth;
-  background-color: none;
+  background-color: ${({ theme }) => theme.background};
   ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
   }
   ::-webkit-scrollbar-track {
-    background: none;
+    background: transparent;
   }
   ::-webkit-scrollbar-thumb {
-    background: none;
+    background: transparent;
   }
 
   display: flex;
