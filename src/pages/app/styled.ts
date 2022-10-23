@@ -110,7 +110,7 @@ export const Hight = styled.div`
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
   background-color: ${({ theme }) => theme.buttonYellow};
   h1 {
-    color: ${({ theme }) => theme.colorShadow};
+    color: ${({ theme }) => theme.white};
     display: flex;
     align-items: center;
     justify-content: center;

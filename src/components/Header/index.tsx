@@ -17,9 +17,6 @@ export function Header() {
           <li>
             <Link to="/category">Categorias</Link>
           </li>
-          <li>
-            <Link to="/">Sites Parceiros</Link>
-          </li>
         </ul>
       </Nav>
       <ContainerButton>
