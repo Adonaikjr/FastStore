@@ -5,11 +5,12 @@ import {
   Content,
   Box,
   ContainerNewButton,
+  Hight,
 } from './styled'
 import imglogo from '../../assets/logo.png'
 import { Link } from 'react-router-dom'
 import { Button } from '../../components/Button'
-import { FcAdvertising } from 'react-icons/all'
+import { FcAdvertising, FaFire } from 'react-icons/all'
 import flyerbrasil from '../../assets/brasil.png'
 import imgPincel from '../../assets/pincelComida.jpeg'
 export function App() {
@@ -33,6 +34,11 @@ export function App() {
         </Box>
         <img src={imglogo} alt="fast pop store" />
       </Section>
+      <Hight>
+        <h1>
+          Em Alta <FaFire />
+        </h1>
+      </Hight>
       <Content>
         <Cards
           title="Amaciador de carne em agulhas"

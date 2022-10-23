@@ -9,38 +9,38 @@ import {
   MdToys,
   CgScrollV,
 } from 'react-icons/all'
-import { Link } from 'react-router-dom'
+
 export function ComponentCategory() {
   return (
-    <ContainerCategory>
+    <ContainerCategory id="category">
       <ContainerScroll>
         <li>
-          <Link to="/">Celulares e Dispositivos</Link>
+          <a href="/">Celulares e Dispositivos</a>
           <FcIphone size={24} />
         </li>
         <li>
-          <Link to="/">Casa e Decoração</Link>
+          <a href="#casa">Casa e Decoração</a>
           <BsFillHouseFill size={24} />
         </li>
 
         <li>
-          <Link to="/">Acessórios de Moda</Link>
+          <a href="/">Acessórios de Moda</a>
           <FaGlasses size={24} />
         </li>
         <li>
-          <Link to="/">Computadores e Acessórios</Link>
+          <a href="/">Computadores e Acessórios</a>
           <IoIosDesktop size={24} />
         </li>
         <li>
-          <Link to="">Relógios</Link>
+          <a href="#relogio">Relógios</a>
           <TbDeviceWatchStats2 size={24} />
         </li>
         <li>
-          <Link to="/">Jogos e Consoles</Link>
+          <a href="/">Jogos e Consoles</a>
           <SlGameController size={24} />
         </li>
         <li>
-          <Link to="/">Brinquedos e Hobbies</Link>
+          <a href="/">Brinquedos e Hobbies</a>
           <MdToys size={24} />
         </li>
       </ContainerScroll>

@@ -25,9 +25,6 @@ export const ContainerNewButton = styled(ContainerButton)`
     align-items: center;
     width: 60%;
     background: ${({ theme }) => theme.buttonYellow};
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     :hover {
       background-color: ${({ theme }) => theme.buttonYellowDark};
     }
@@ -105,6 +102,21 @@ export const Box = styled.div`
         top: 0px;
       }
     }
+  }
+`
+export const Hight = styled.div`
+  margin-top: 1rem;
+  border: solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  background-color: ${({ theme }) => theme.buttonYellow};
+  h1 {
+    color: ${({ theme }) => theme.colorShadow};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  svg {
+    color: ${({ theme }) => theme.white};
   }
 `
 export const Content = styled.div`

@@ -60,7 +60,7 @@ export const ContainerCard = styled.div`
     border: solid transparent;
   }
   button {
-    border: solid transparent;
+    border: none;
     text-align: center;
     background-color: ${({ theme }) => theme.buttonYellow};
     margin-top: 1rem;

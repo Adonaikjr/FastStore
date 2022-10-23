@@ -6,32 +6,30 @@ export const ContainerCategory = styled.nav`
   border: solid transparent;
   overflow-y: auto;
   scroll-behavior: smooth;
+  background-color: none;
   ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
   }
   ::-webkit-scrollbar-track {
-    background: transparent;
+    background: none;
   }
   ::-webkit-scrollbar-thumb {
-    background: transparent;
+    background: none;
   }
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
-    rgba(17, 17, 26, 0.1) 0px 0px 8px;
 `
-
 export const ContainerScroll = styled.ul`
   width: 100%;
   gap: 1rem;
   height: 8vh;
   display: flex;
   list-style: none;
-  border: solid transparent;
+  border: none;
   a:link,
   a:visited {
     padding: 1rem;
