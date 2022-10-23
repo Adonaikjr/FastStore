@@ -12,10 +12,10 @@ interface types_props {
 export function Cards({ img, title, text, redirect, value }: types_props) {
   return (
     <ContainerCard>
-      <h3>{title}</h3>
       <section>{img}</section>
+      <h3>{title}</h3>
       <p>{text}</p>
-      <p>{value}</p>
+      <h4>{value}</h4>
       <Button title={redirect} />
     </ContainerCard>
   )

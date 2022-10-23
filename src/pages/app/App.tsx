@@ -102,7 +102,7 @@ export function App() {
         <Cards
           title="Camisetas do Brasil para a copa"
           text="Vista a Camisa e torça com o país"
-          value="a partir R$30,00"
+          value="R$30,00"
           img={<img src={flyerbrasil} alt="camisetas do brasil" />}
           redirect={<a href="https://shope.ee/4zyQjyFE6i">Conferir</a>}
         />
@@ -133,6 +133,154 @@ export function App() {
             />
           }
           redirect={<a href="https://shope.ee/6AAPXfzbNI">Conferir</a>}
+        />
+
+        <Cards
+          title="M3 Digital LED"
+          text="Tamanho do Relógio = 1,5 cm x 4 cm"
+          value="R$4,99"
+          img={
+            <img
+              src="https://cf.shopee.com.br/file/265b50ace5ced47e7ccf62ad8e937884_tn"
+              alt="relogio digital"
+            />
+          }
+          redirect={<a href="https://shope.ee/6zjWvspwzh">Conferir</a>}
+        />
+        <Cards
+          title="Conjunto relógio masculino"
+          text="Acompanha corrente + cruz"
+          value="R$39,99"
+          img={
+            <img
+              src="https://cf.shopee.com.br/file/4fec4abfc28d5fc4111f96aee054fe53_tn"
+              alt="relogio ouro fastpopstore"
+            />
+          }
+          redirect={<a href="https://shope.ee/2AeHAnmndw">Conferir</a>}
+        />
+        <Cards
+          title="Xiaomi M4 digital Unissex"
+          text="A prova água Pulseira colorida Unissex"
+          value="R$7,99"
+          img={
+            <img
+              src="https://cf.shopee.com.br/file/1da1d919702609649be0d4476e1abd87_tn"
+              alt="xiaomi m4 fastpopstore"
+            />
+          }
+          redirect={<a href="https://shope.ee/6pQ6jJjuxk">Conferir</a>}
+        />
+        <Cards
+          title="Lacoste Relógio Esportivo"
+          text="Quartzo Simples"
+          value="R$32,80"
+          img={
+            <img
+              src="https://cf.shopee.com.br/file/0c8e189f5085aad04c79d0442cb20314_tn"
+              alt="relogio lacoste lacostado"
+            />
+          }
+          redirect={<a href="https://shope.ee/1q1Qm5Cxo8">Conferir</a>}
+        />
+
+        <Cards
+          title="Máscara Descartável C/50 Unidades"
+          text="Proteção Facial Tripla"
+          value="R$5,49"
+          img={
+            <img
+              src="https://cf.shopee.com.br/file/fc6e419d01af4fccf4428c194909b203_tn"
+              alt="mascara descartavel"
+            />
+          }
+          redirect={<a href="https://shope.ee/99o1m1ZCEw">Conferir</a>}
+        />
+        <Cards
+          title="Lençou Descartavel"
+          text="Papel Hospitalar Maca 70x50"
+          value="R$10,00"
+          img={
+            <img
+              src="https://cf.shopee.com.br/file/d643a4f99cffe74c8ab5e71d734f7162_tn"
+              alt="lençou descartavel"
+            />
+          }
+          redirect={<a href="https://shope.ee/7zc4PwMvLw">Conferir</a>}
+        />
+        <Cards
+          title="Luva Látex Descartável"
+          text="Caixa C/100 supermax"
+          value="R$18,99"
+          img={
+            <img
+              src="https://cf.shopee.com.br/file/14dc5fb8499a5847ac7b13efc54f296c_tn"
+              alt="Luva latex"
+            />
+          }
+          redirect={<a href="https://shope.ee/Zmt0Sa2q">Conferir</a>}
+        />
+
+        <Cards
+          title="Kit Whey"
+          text="Protein 500g, BCAA 4,5 100g, Power Creatine 100g, Coqueteleira"
+          value="R$59,90"
+          img={
+            <img
+              src="https://cf.shopee.com.br/file/2efc2c5cb46cefdbf221e024045b02b8_tn"
+              alt="whey protein"
+            />
+          }
+          redirect={<a href="https://shope.ee/7pIeCvavsP">Conferir</a>}
+        />
+        <Cards
+          title="Kit 50 Xuxinha"
+          text="Elástico de Cabelo"
+          value="R$5,90"
+          img={
+            <img
+              src="https://cf.shopee.com.br/file/d650a7ea4893a6276242226c0dcdb6c0_tn"
+              alt="xuxinha Cabelo"
+            />
+          }
+          redirect={<a href="https://shope.ee/9p3jRwmquX">Conferir</a>}
+        />
+        <Cards
+          title="Óculos de Sol"
+          text="Armação Quadrada Vintage"
+          value="R$5,90"
+          img={
+            <img
+              src="https://cf.shopee.com.br/file/3619ca046057c02cb17c5c5ce97e32f4_tn"
+              alt="oculos vintage"
+            />
+          }
+          redirect={<a href="https://shope.ee/5zr0t1tXV3">Conferir</a>}
+        />
+        <Cards
+          title="Bandana Lenço Unissex"
+          text="Brasil Copa 2022"
+          value="R$2,50"
+          img={
+            <img
+              src="https://cf.shopee.com.br/file/7020c4df0aac796251b1b89691b76f34_tn"
+              alt="bandana copa brasil 2022"
+            />
+          }
+          redirect={<a href="https://shope.ee/2KxiWTl3Gy">Conferir</a>}
+        />
+
+        <Cards
+          title="Chapéu Bucket Copa do Mundo"
+          text="Bucket Copa do mundo simbolo CBF"
+          value="R$13,50"
+          img={
+            <img
+              src="https://cf.shopee.com.br/file/9816d433136bd1c4bc51bef2d81ca89e_tn"
+              alt="bucket copa 2022"
+            />
+          }
+          redirect={<a href="https://shope.ee/7pIf5FMkcr">Conferir</a>}
         />
       </Content>
     </ContainerApp>

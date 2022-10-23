@@ -121,7 +121,8 @@ export const Hight = styled.div`
 `
 export const Content = styled.div`
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   margin-top: 5rem;
 `

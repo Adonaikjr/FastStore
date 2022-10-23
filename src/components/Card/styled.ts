@@ -2,26 +2,23 @@ import styled from 'styled-components'
 export const ContainerCard = styled.div`
   background: #fff;
   width: 15rem;
-  padding: 1rem;
+  padding: 5px;
   height: 28rem;
   border-radius: 10px;
   box-shadow: 0px 2px 28px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  margin: 1rem;
+  margin: 3px;
   border: solid transparent;
 
   @media (max-width: 600px) {
     width: 10rem;
-    height: 500px;
-    padding: 0.5rem;
 
     img {
       border: solid transparent;
-      height: 6rem;
-      width: 8rem;
+      height: 100%;
+      width: 100%;
       border-radius: 5px;
       :hover {
         border: none;
@@ -38,22 +35,22 @@ export const ContainerCard = styled.div`
   h3 {
     //styleName: Title/Title S;
     font-family: Baloo 2;
-    font-size: 20px;
     font-weight: 700;
     line-height: 26px;
     letter-spacing: 0em;
+    text-align: left;
+  }
+  h4 {
     text-align: center;
+    font-size: 20px;
+    color: ${({ theme }) => theme.purpleDark};
   }
   section {
     height: 12rem;
   }
   img {
     border: solid transparent;
-    height: 10rem;
-
-    :hover {
-      height: 12rem;
-    }
+    height: 12rem;
   }
   p {
     margin: 0rem 0rem 0.5rem 0rem;
@@ -63,6 +60,7 @@ export const ContainerCard = styled.div`
     border: none;
     text-align: center;
     background-color: ${({ theme }) => theme.buttonYellow};
+    color: ${({ theme }) => theme.purpleDark};
     margin-top: 1rem;
     font-size: 16px;
     :hover {
@@ -73,7 +71,7 @@ export const ContainerCard = styled.div`
     a:link,
     a:visited {
       font-size: 20px;
-      color: #fff;
+      color: ${({ theme }) => theme.brand_beige};
       width: 100%;
     }
   }
