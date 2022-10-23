@@ -15,22 +15,24 @@ export function ComponentCategory() {
     <ContainerCategory id="category">
       <ContainerScroll>
         <li>
-          <Link to="/">Celulares e Dispositivos</Link>
+          <Link to="/category/celulares_acessorios">
+            Celulares e Dispositivos
+          </Link>
           <FcIphone size={24} />
         </li>
         <li>
-          <Link to="/category/casa">Casa e Decoração</Link>
+          <Link to="/category/casa_decoracao">Casa e Decoração</Link>
           <BsFillHouseFill size={24} />
         </li>
-
         <li>
-          <Link to="/">Acessórios de Moda</Link>
+          <Link to="/category/saude">Saúde</Link>
+          ❤️
+        </li>
+        <li>
+          <Link to="/category/moda_acessorios">Acessórios de Moda</Link>
           <FaGlasses size={24} />
         </li>
-        <li>
-          <Link to="/">Computadores e Acessórios</Link>
-          <IoIosDesktop size={24} />
-        </li>
+
         <li>
           <Link to="/category/relogio">Relógios</Link>
           <TbDeviceWatchStats2 size={24} />
@@ -39,9 +41,10 @@ export function ComponentCategory() {
           <Link to="/">Jogos e Consoles</Link>
           <SlGameController size={24} />
         </li>
+
         <li>
-          <Link to="/category/saude">Saúde</Link>
-          ❤️
+          <Link to="/">Computadores e Acessórios</Link>
+          <IoIosDesktop size={24} />
         </li>
       </ContainerScroll>
       <Options>

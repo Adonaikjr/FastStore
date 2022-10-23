@@ -18,7 +18,7 @@ export function Header() {
             <Link to="/category">Categorias</Link>
           </li>
           <li>
-            <Link to="/">Depoimentos</Link>
+            <Link to="/">Sites Parceiros</Link>
           </li>
         </ul>
       </Nav>

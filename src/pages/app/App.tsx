@@ -13,6 +13,7 @@ import { Button } from '../../components/Button'
 import { FcAdvertising, FaFire } from 'react-icons/all'
 import flyerbrasil from '../../assets/brasil.png'
 import imgPincel from '../../assets/pincelComida.jpeg'
+import { ComponentCategory } from '../../components/Category'
 export function App() {
   return (
     <ContainerApp>
@@ -34,6 +35,8 @@ export function App() {
         </Box>
         <img src={imglogo} alt="fast pop store" />
       </Section>
+
+      <ComponentCategory />
       <Hight>
         <h1>
           Em Alta <FaFire />
