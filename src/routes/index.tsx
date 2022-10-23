@@ -6,6 +6,7 @@ import { App } from '../pages/app/App'
 import { Category } from '../pages/category'
 import { CategorySaude } from '../components/products/saude'
 import { CategoryRelogios } from '../components/products/Relogios'
+import { CategoryHouse } from '../components/products/casa'
 export function AppRoutes() {
   return (
     <Routes>
@@ -17,6 +18,7 @@ export function AppRoutes() {
           <Route path="/category" element={<Category />} />
           <Route path="saude" element={<CategorySaude />} />
           <Route path="relogio" element={<CategoryRelogios />} />
+          <Route path="casa" element={<CategoryHouse />} />
         </Route>
       </Route>
     </Routes>

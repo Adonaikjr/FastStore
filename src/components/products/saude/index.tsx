@@ -34,9 +34,8 @@ export function CategorySaude() {
         />
         <Cards
           title="Luva Látex Descartável"
-          text="
-        Caixa C/100 supermax"
-          value="R$"
+          text="Caixa C/100 supermax"
+          value="R$18,99"
           img={
             <img
               src="https://cf.shopee.com.br/file/14dc5fb8499a5847ac7b13efc54f296c_tn"

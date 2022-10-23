@@ -1,22 +1,11 @@
-import { Cards } from '../../components/Card'
-import { Content, Hight } from '../app/styled'
-import { ContainerPageCategory, NewSectionCategory } from './styled'
-import background from '../../assets/bannerpetsjpg.jpeg'
-import backgroundsecond from '../../assets/bannerpessoais.jpg'
-export function Category() {
-  return (
-    <ContainerPageCategory>
-      <NewSectionCategory>
-        <a href="https://www.amazon.com.br/b?ie=UTF8&node=18991136011&linkCode=sl2&tag=adonaikjr03-20&linkId=5ae9a38120d97528983a870b0477931b&language=pt_BR&ref_=as_li_ss_tl">
-          <img src={background} alt="background" />
-        </a>
-        <a href="https://www.amazon.com.br/b?ie=UTF8&node=16215417011&linkCode=sl2&tag=adonaikjr03-20&linkId=cb28f9ba1838573bab44e11cee0e41f8&language=pt_BR&ref_=as_li_ss_tl">
-          <img src={backgroundsecond} alt="background" />
-        </a>
-      </NewSectionCategory>
+import { Content, Hight } from '../../../pages/app/styled'
+import { Cards } from '../../Card'
 
+export function CategoryHouse() {
+  return (
+    <>
       <Hight>
-        <h1>Categorias</h1>
+        <h1>Casa e Decoração</h1>
       </Hight>
       <Content>
         <Cards
@@ -73,6 +62,6 @@ export function Category() {
           }
         />
       </Content>
-    </ContainerPageCategory>
+    </>
   )
 }
