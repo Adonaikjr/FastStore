@@ -1,7 +1,6 @@
 import styled, { keyframes } from 'styled-components'
 
 export const ContainerCategory = styled.nav`
-  margin: 1rem;
   padding: 1rem;
   border: solid transparent;
   overflow-y: auto;
