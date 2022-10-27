@@ -7,7 +7,7 @@ export const ContainerApp = styled.main`
 export const Section = styled.section`
   //border: solid transparent;
   padding-top: 1rem;
-  background-color: ${({ theme }) => theme.colorInput};
+  background-color: ${({ theme }) => theme.purpleLight};
   border: solid transparent;
   height: 100%;
   display: flex;
@@ -110,7 +110,7 @@ export const Hight = styled.div`
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
   background-color: ${({ theme }) => theme.buttonYellow};
   h1 {
-    color: ${({ theme }) => theme.white};
+    color: ${({ theme }) => theme.purpleDark};
     display: flex;
     align-items: center;
     justify-content: center;
