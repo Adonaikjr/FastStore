@@ -57,6 +57,18 @@ export function CategorySaude() {
           }
           redirect={<a href="https://shope.ee/7pIeCvavsP">Conferir</a>}
         />
+        <Cards
+          title="Depilação a leaser"
+          text="Remoção permanente dos pelos 5niveis de potência"
+          value="R$145,00"
+          img={
+            <img
+              src="https://m.media-amazon.com/images/I/318AHO6J1fL._AC_.jpg"
+              alt="seladora de alimentos"
+            />
+          }
+          redirect={<a href="https://shope.ee/99nxwvc0NE">Conferir</a>}
+        />
       </Content>
     </>
   )

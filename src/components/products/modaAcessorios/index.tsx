@@ -9,6 +9,18 @@ export function CategoryAcessoriosDeModa() {
       </Hight>
       <Content>
         <Cards
+          title="Calça Pantalona Feminina"
+          text="Cintura com cordão forrado"
+          value="R$39,99"
+          img={
+            <img
+              src="https://cf.shopee.com.br/file/7decbaaedd1efad9ef4cda018882b2e4_tn"
+              alt="calça feminina"
+            />
+          }
+          redirect={<a href="https://shope.ee/6UnNvFaY6L">Conferir</a>}
+        />
+        <Cards
           title="Kit 50 Xuxinha"
           text="Elástico de Cabelo"
           value="R$5,90"

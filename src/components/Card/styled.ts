@@ -46,12 +46,15 @@ export const ContainerCard = styled.div`
     color: ${({ theme }) => theme.purpleDark};
   }
   section {
-    height: 12rem;
-  }
-  img {
     border: solid transparent;
-    height: 12rem;
+    height: 15rem;
+    img {
+      border: solid transparent;
+      height: 100%;
+      width: 100%;
+    }
   }
+
   p {
     margin: 0rem 0rem 0.5rem 0rem;
     border: solid transparent;
