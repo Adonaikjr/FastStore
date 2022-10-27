@@ -3,7 +3,7 @@ export const ContainerCard = styled.div`
   background: #fff;
   width: 15rem;
   padding: 5px;
-  height: 28rem;
+
   border-radius: 10px;
   box-shadow: 0px 2px 28px rgba(0, 0, 0, 0.2);
   display: flex;
