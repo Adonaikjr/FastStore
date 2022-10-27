@@ -14,7 +14,7 @@ export const ContainerCard = styled.div`
 
   @media (max-width: 600px) {
     width: 10rem;
-
+    height: 500px;
     img {
       border: solid transparent;
       height: 100%;
