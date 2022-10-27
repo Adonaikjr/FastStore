@@ -36,7 +36,7 @@ export function App() {
 
       <ComponentCategory />
       <Hight>
-        <h1>Melhores avaliados ★★★★★</h1>
+        <h1>Melhores avaliados</h1>
       </Hight>
       <Content>
         <Cards
