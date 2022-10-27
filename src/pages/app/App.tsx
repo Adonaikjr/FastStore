@@ -15,6 +15,7 @@ import { ComponentCategory } from '../../components/Category'
 export function App() {
   return (
     <ContainerApp>
+      <ComponentCategory />
       <Section>
         <Box>
           <span>Boas-Vindas ao Fast Store 👋</span>
@@ -33,8 +34,6 @@ export function App() {
         </Box>
         <img src={imglogo} alt="fast pop store" />
       </Section>
-
-      <ComponentCategory />
       <Hight>
         <h1>Melhores avaliados</h1>
       </Hight>

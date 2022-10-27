@@ -14,7 +14,6 @@ export function Category() {
           <img src={backgroundsecond} alt="background" />
         </a>
       </NewSectionCategory>
-
       <Hight>
         <h1>Categorias</h1>
       </Hight>

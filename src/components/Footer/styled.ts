@@ -11,6 +11,8 @@ export const ContainerFooter = styled.footer`
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background-color: ${({ theme }) => theme.purpleDark};
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  margin-top: 3rem;
 `
 export const Nav = styled.div`
   width: 350px;
