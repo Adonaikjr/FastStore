@@ -12,6 +12,9 @@ import { Link } from 'react-router-dom'
 import { Button } from '../../components/Button'
 import { FcAdvertising } from 'react-icons/all'
 import { ComponentCategory } from '../../components/Category'
+
+import logobrasil from '../../assets/brasil.png'
+
 export function App() {
   return (
     <ContainerApp>
@@ -38,6 +41,21 @@ export function App() {
         <h1>Melhores avaliados</h1>
       </Hight>
       <Content>
+
+      <Cards
+          title="Camisetas brasil"
+          text="Venha torcer com o páis"
+          value="R$30,00"
+          img={
+            <img
+              src={logobrasil}
+              alt="Brasil"
+            />
+          }
+          redirect={<a href=" https://shope.ee/4KiulNB0mf">Conferir</a>}
+        />
+     
+
         <Cards
           title="Maquina para cortar cabelo"
           text="Elétrico profissional"
