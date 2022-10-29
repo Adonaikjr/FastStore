@@ -14,10 +14,9 @@ export const ContainerCard = styled.div`
 
   @media (max-width: 600px) {
     width: 10rem;
-    height: 500px;
+    height: 25rem;
     img {
       border: solid transparent;
-      height: 100%;
       width: 100%;
       border-radius: 5px;
       :hover {
@@ -52,6 +51,9 @@ export const ContainerCard = styled.div`
       border: solid transparent;
       height: 100%;
       width: 100%;
+    }
+    @media (max-width: 600px) {
+      height: 10rem;
     }
   }
 
