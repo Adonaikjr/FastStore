@@ -43,6 +43,18 @@ export function App() {
       <Content>
 
       <Cards
+          title="Tênis Botinha Everlast"
+          text="Boxe Treino Jump"
+          value="R$70,00"
+          img={
+            <img
+              src='https://cf.shopee.com.br/file/ee79e8a6c079b2bd26baf21cbd85cb04_tn'
+              alt="everlast"
+            />
+          }
+          redirect={<a href="https://shope.ee/1fiVjrVAkz">Conferir</a>}
+        />
+      <Cards
           title="Camisetas brasil"
           text="Venha torcer com o páis"
           value="R$30,00"
