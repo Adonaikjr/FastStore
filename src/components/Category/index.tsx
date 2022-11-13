@@ -43,7 +43,7 @@ export function ComponentCategory() {
         </li>
 
         <li>
-          <Link to="/">Computadores e Acessórios</Link>
+          <Link to="/category/computadores">Computadores e Acessórios</Link>
           <IoIosDesktop size={24} />
         </li>
       </ContainerScroll>

@@ -17,6 +17,9 @@ export function Header() {
           <li>
             <Link to="/category">Categorias</Link>
           </li>
+          <li>
+            <Link to="/category/black">Black Friday</Link>
+          </li>
         </ul>
       </Nav>
       <ContainerButton>

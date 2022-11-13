@@ -17,6 +17,7 @@ export const Section = styled.section`
     rgba(17, 17, 26, 0.1) 0px 0px 8px;
   img {
     height: 20rem;
+    border-radius: 50%;
   }
 `
 export const ContainerNewButton = styled(ContainerButton)`
@@ -45,10 +46,15 @@ export const Box = styled.div`
   height: 20rem;
   margin: 1rem 0rem 1rem 1rem;
   width: 30rem;
+  color: ${({ theme }) => theme.white};
+  h1,
+  p {
+    color: ${({ theme }) => theme.white};
+  }
   span {
     //styleName: Title/Title XL;
     font-family: Baloo 2;
-    font-size: 33px;
+    font-size: 24px;
     font-weight: 800;
     line-height: 62px;
     letter-spacing: 0em;
@@ -91,6 +97,9 @@ export const Box = styled.div`
     animation-name: animationText;
     animation-duration: 2s;
     position: relative;
+    a {
+      color: ${({ theme }) => theme.buttonYellow};
+    }
 
     @keyframes animationText {
       0% {
@@ -110,7 +119,7 @@ export const Hight = styled.div`
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
   background-color: ${({ theme }) => theme.buttonYellow};
   h1 {
-    color: ${({ theme }) => theme.purpleDark};
+    color: ${({ theme }) => theme.white};
     display: flex;
     align-items: center;
     justify-content: center;

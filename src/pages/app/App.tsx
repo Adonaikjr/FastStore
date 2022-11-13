@@ -7,7 +7,7 @@ import {
   ContainerNewButton,
   Hight,
 } from './styled'
-import imglogo from '../../assets/logo.png'
+import natal from '../../assets/natal.jpg'
 import { Link } from 'react-router-dom'
 import { Button } from '../../components/Button'
 import { FcAdvertising } from 'react-icons/all'
@@ -35,26 +35,55 @@ export function App() {
             ></Button>
           </ContainerNewButton>
         </Box>
-        <img src={imglogo} alt="fast pop store" />
+        <img src={natal} alt="fast pop store" />
       </Section>
       <Hight>
         <h1>Melhores avaliados</h1>
       </Hight>
       <Content>
-
-      <Cards
+        <Cards
+          title="Fio Fada Prata Cordão"
+          text="Cores Natal 3m 30 Leds Pilha"
+          value="R$6,99"
+          img={
+            <img
+              src="https://cf.shopee.com.br/file/6868fd11eb0eeb01bdc2db5b69c413f4_tn"
+              alt="natal"
+            />
+          }
+          redirect={<a href=" https://shope.ee/1VP9VFtg9J">Conferir</a>}
+        />
+        <Cards
+          title="Festão Verde Escuro"
+          text="Enfeite Festão"
+          value="R$6,99"
+          img={
+            <img
+              src="https://cf.shopee.com.br/file/6b8185f011d9f6e8e9048dd82defa7a1_tn"
+              alt="natal"
+            />
+          }
+          redirect={<a href="https://shope.ee/2AeqHm8qVE">Conferir</a>}
+        />
+        <Cards
+          title="Boneco de neve decoração"
+          text="Enfeite de natal"
+          value="R$5,98"
+          img={
+            <img
+              src="https://cf.shopee.com.br/file/0fdc5d31b001325e1f3fe0fa74da6951_tn"
+              alt="natal"
+            />
+          }
+          redirect={<a href="https://shope.ee/LDC5LXp8S">Conferir</a>}
+        />
+        <Cards
           title="Camisetas brasil"
           text="Venha torcer com o páis"
           value="R$30,00"
-          img={
-            <img
-              src={logobrasil}
-              alt="Brasil"
-            />
-          }
+          img={<img src={logobrasil} alt="Brasil" />}
           redirect={<a href=" https://shope.ee/4KiulNB0mf">Conferir</a>}
         />
-     
 
         <Cards
           title="Maquina para cortar cabelo"
