@@ -29,7 +29,6 @@ export function AppRoutes() {
             path="moda_acessorios"
             element={<CategoryAcessoriosDeModa />}
           />
-
         </Route>
       </Route>
     </Routes>

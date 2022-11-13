@@ -41,7 +41,6 @@ export function App() {
         <h1>Melhores avaliados</h1>
       </Hight>
       <Content>
-<<<<<<< HEAD
         <Cards
           title="Fio Fada Prata Cordão"
           text="Cores Natal 3m 30 Leds Pilha"
@@ -55,28 +54,21 @@ export function App() {
           redirect={<a href=" https://shope.ee/1VP9VFtg9J">Conferir</a>}
         />
         <Cards
-          title="Festão Verde Escuro"
-          text="Enfeite Festão"
-          value="R$6,99"
-=======
-
-      <Cards
           title="Tênis Botinha Everlast"
           text="Boxe Treino Jump"
           value="R$70,00"
           img={
             <img
-              src='https://cf.shopee.com.br/file/ee79e8a6c079b2bd26baf21cbd85cb04_tn'
+              src="https://cf.shopee.com.br/file/ee79e8a6c079b2bd26baf21cbd85cb04_tn"
               alt="everlast"
             />
           }
           redirect={<a href="https://shope.ee/1fiVjrVAkz">Conferir</a>}
         />
-      <Cards
+        <Cards
           title="Camisetas brasil"
           text="Venha torcer com o páis"
           value="R$30,00"
->>>>>>> 0af6aac3685c30da1b036879c4566488ea64d5d4
           img={
             <img
               src="https://cf.shopee.com.br/file/6b8185f011d9f6e8e9048dd82defa7a1_tn"
